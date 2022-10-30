@@ -3,11 +3,11 @@
 ## AWS Infrastructure as Code
 Write using any IAC engine (Terraform is preferred but CloudFormation/Ansible are also ok) to
 create the below AWS components:
-● VPC with two public and private subnets
-● Route tables for each subnet
-● Security Group to allow port 80 and 443 from the Internet
-● ELB - listening on ports 80 & 443
-● Public route53 hosted zone and CNAME entry for the ELB
+- VPC with two public and private subnets
+- Route tables for each subnet
+- Security Group to allow port 80 and 443 from the Internet
+- ELB - listening on ports 80 & 443
+- Public route53 hosted zone and CNAME entry for the ELB
 
 ## AWS API
 Create a script using any preferred programming language (Python, Node.js, Java, etc.) to perform

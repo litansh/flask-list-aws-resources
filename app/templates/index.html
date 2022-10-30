@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Python monitor Health-Check - POC</h1>
+<meta http-equiv="refresh" content="10" >
+<p>This is a POC which only intends to retrieve status code or "Down" if it is indeed the website status. You may view code status logs in the terminal.</p>
+<p>{{ n|safe }}</p>
+<p>You can visit <a href="/page2">Page 2</a>.</p>
+{% endblock %}

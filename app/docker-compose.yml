@@ -1,0 +1,14 @@
+version: '3.6'
+services:
+
+  python-aws-resources:
+    image: python-aws-resources:latest
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: python-aws-resources
+    volumes:
+      - ~/.aws/:/root/.aws:ro 
+    ports:
+      - '5001:5000'
+    restart: always

@@ -15,6 +15,8 @@ Please remember to refactor variable files and others per to your account etc.
 ## AWS API
 Created a script in Python to present a list of EC2, RDS, Security-Groups and EBS services per region.
 
+### !!! Notice that in order to retrieve your AWS account services, your ~/.aws/ own directory is mounted to the container using [default] credentials !!!
+
 ## Run it
 - Clone the repository
 - run `docker compose up -d` in the app directory

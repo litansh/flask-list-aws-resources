@@ -2,3 +2,4 @@ Flask
 turbo-flask
 boto3
 apscheduler
+requests

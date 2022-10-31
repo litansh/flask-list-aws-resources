@@ -2,8 +2,7 @@
 # flask-list-aws-resources
 
 ## AWS Infrastructure as Code
-Write using any IAC engine (Terraform is preferred but CloudFormation/Ansible are also ok) to
-create the below AWS components:
+Written terraform files and modules to provision:
 - VPC with two public and private subnets
 - Route tables for each subnet
 - Security Group to allow port 80 and 443 from the Internet
@@ -11,19 +10,15 @@ create the below AWS components:
 - Public route53 hosted zone and CNAME entry for the ELB
 
 ## AWS API
-Create a script using any preferred programming language (Python, Node.js, Java, etc.) to perform
-the following activities:
-- List AWS services being used region wise
-- List each service in detail, like EC2, RDS etc.
+Created a script in Python to present a list EC2, RDS, Security-Groups and EBS services per region.
 
-## Notes
-Try to think “big” and consider the following guidelines:
-- Try to design and implement your solution as you would do in a real production code. Show
-us how you create a clean, maintainable code that does awesome stuff. Build something
-that we'd be happy to contribute to. This is not a programming contest where dirty hacks
-win the game.
-- Feel free to add more features! Really, we're curious about how your mind works. We'd
-expect the same if you worked with us.
-- Documentation and maintainability is a plus.
-- Commit all artifacts/scripts to Github and write your explanations and documentation in a
-README file
+## Run it
+- Clone the repository
+- run `docker compose up -d`
+- A flask framework will run a python script and present a list of the above services.
+- Go to https://localhost:5001
+
+## Future steps
+- Revisit the option to list all of the used AWS resources.
+- Add services functions, prefer consolidation.
+- Create an EC2 deployment as part of the terraform provisioning and run the application on it using ansible, thus creating an end-to-end deployment solution.

@@ -16,7 +16,7 @@ Created a script in Python to present a list EC2, RDS, Security-Groups and EBS s
 - Clone the repository
 - run `docker compose up -d`
 - A flask framework will run a python script and present a list of the above services.
-- Go to https://localhost:5001
+- Go to http://localhost:5001
 
 ## Future steps
 - Revisit the option to list all of the used AWS resources.

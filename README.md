@@ -13,7 +13,7 @@ Navigate to ops/terraform directory and run terraform commands.
 Please remember to refactor variable files and others per to your account etc.
 
 ## AWS API
-Created a script in Python to present a list EC2, RDS, Security-Groups and EBS services per region.
+Created a script in Python to present a list of EC2, RDS, Security-Groups and EBS services per region.
 
 ## Run it
 - Clone the repository

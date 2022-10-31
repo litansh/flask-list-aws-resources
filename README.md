@@ -17,7 +17,7 @@ Created a script in Python to present a list of EC2, RDS, Security-Groups and EB
 
 ## Run it
 - Clone the repository
-- run `docker compose up -d`
+- run `docker compose up -d` in the app directory
 - A flask framework will run a python script and present a list of the above services.
 - Go to http://localhost:5001
 

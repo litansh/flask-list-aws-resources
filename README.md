@@ -1,5 +1,5 @@
 ---
-# flask-list-aws-resources objectives
+# flask-list-aws-resources
 
 ## AWS Infrastructure as Code
 Written terraform files and modules to provision:

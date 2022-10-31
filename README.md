@@ -9,6 +9,9 @@ Written terraform files and modules to provision:
 - ELB - listening on ports 80 & 443
 - Public route53 hosted zone and CNAME entry for the ELB
 
+Navigate to ops/terraform directory and run terraform commands.
+Please remember to refactor variable files and others per to your account etc.
+
 ## AWS API
 Created a script in Python to present a list EC2, RDS, Security-Groups and EBS services per region.
 

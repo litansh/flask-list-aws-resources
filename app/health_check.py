@@ -7,7 +7,7 @@ def web_response():
 
     try:
         resp_code = requests.get(url)
-        print(resp_code)
+        print(resp_code, flush=True)
         resp = "UP"
         output = "UP"
         debug = "INFO"
